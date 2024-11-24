@@ -18,7 +18,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "          GSID FIX             "
+  ui_print "          GSID Fix             "
   ui_print "*******************************"
 }
 
