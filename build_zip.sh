@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 version_hash=$(git rev-parse --short HEAD)
-zip -r $(basename "$PWD")-$version_hash.zip ./ -x ./*.git* $(basename "$0") $(xargs -a .gitignore)
+prefix=$(basename "$PWD")-
+rm $prefix*
+zip -r $prefix$version_hash.zip ./ -x ./*.git* $(basename "$0") $(xargs -a .gitignore)
