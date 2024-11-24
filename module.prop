@@ -3,5 +3,5 @@ name=GSID Fix
 version=v1.1
 versionCode=1.1
 author=stelios333
-description=Fixes GSID on devices with unencrypted /data
+description=Restores DSU functionality in devices with unencrypted /data.
 template=3
