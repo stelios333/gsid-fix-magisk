@@ -1,2 +1,2 @@
 ## GSID Fix
-Since Andrioid 14 QPR3 GSID will not work devices with unencrypted /data, meaning you can no longer use DSUs. This Magisk module replaces the gsid binary with an older version.
+Since Andrioid 14 QPR3 installing DSUs will not work devices with unencrypted /data. This is because some code required for installing DSUs on those devices was removed from an internal library. This Magisk module replaces the gsid binary with a modified version that has the removed code restored.
