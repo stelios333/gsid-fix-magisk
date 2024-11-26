@@ -1,7 +1,7 @@
 id=GSIDFix
 name=GSID Fix
-version=v1.3
-versionCode=13
+version=v1.4
+versionCode=14
 author=stelios333
 description=Restores DSU functionality in devices with unencrypted /data.
 template=3
