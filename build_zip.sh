@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
-version_hash=$(git rev-parse --short HEAD)
+module_path=./module
+version=$(jq .version update.json -r | cut -c2-)
 prefix=$(basename "$PWD")-
 rm $prefix*
-zip -r $prefix$version_hash.zip ./ -x ./*.git* $(basename "$0") $(xargs -a .gitignore)
+zip -r $prefix$version.zip $module_path

@@ -5,3 +5,5 @@ versionCode=13
 author=stelios333
 description=Restores DSU functionality in devices with unencrypted /data.
 template=3
+updateJson=https://raw.githubusercontent.com/stelios333/gsid-fix-magisk/refs/heads/main/update.json
+
