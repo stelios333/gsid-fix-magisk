@@ -1,4 +1,3 @@
-# GSID Fix v1.4
- - Added auto updater.
- - Refined build scripts.
- - Changed source code directory structure.
+# GSID Fix v1.5
+ - Added checks for Android version and CPU architecture.
+ - Updated build script.
